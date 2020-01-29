@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Custom Drupal code standards">
+<ruleset name="CRUK Drupal code standards">
 
   <!-- Combine these rulesets. -->
   <rule ref="Drupal"/>
@@ -16,21 +16,12 @@
   <exclude-pattern>*/node_modules/*</exclude-pattern>
   <exclude-pattern>*rules_export.txt</exclude-pattern>
   <exclude-pattern>*/features/*</exclude-pattern>
+  <exclude-pattern>*/contrib/*</exclude-pattern>
+  <exclude-pattern>*.features.*.inc</exclude-pattern>
 
   <!-- For colored cli output -->
   <arg name="colors"/>
   <!-- To show rule names. Equivalent to "phpcs -s" -->
   <arg value="sp"/>
-
-  <!-- Depending on your project, you may need to ignore specific rules until
-       they can be fixed one at a time. Here is an example of how to ignore a
-       specific rule. -->
-
-  <!-- Class name must be prefixed with the module name. -->
-  <!--
-  <rule ref="DrupalPractice.General.ClassName.ClassPrefix">
-    <severity>0</severity>
-  </rule>
-  -->
 
 </ruleset>
