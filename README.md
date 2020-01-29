@@ -1,5 +1,5 @@
-# Drupal Code Standards
+# CRUK Drupal 7 Code Standards
 
-This repo is a resource for getting phpcs setup with everything you need to integrate Drupal standards with PhpStorm.
+A fork of nilswloewen/drupal_code_standards - see https://blog.acromedia.com/making-drupal-code-standards-work-for-you-with-phpstorm-phpcs-phpcbf for the initial thinking of this.
 
-For setup instructions please see https://blog.acromedia.com.
+phpcs-custom-standard.xml contains PHP_CodeSniffer rulesets that we should adhere to in Drupal 7.
