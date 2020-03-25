@@ -1,7 +1,7 @@
 {
   "name": "cruk/coding-standards-drupal-7",
   "description": "A PHP CodeSniffer ruleset for Drupal 7 development",
-  "type": "library",
+  "type": "phpcodesniffer-standard",
   "require": {
     "drupal/coder": "^8.3",
     "phpcompatibility/php-compatibility": "^9.3",
