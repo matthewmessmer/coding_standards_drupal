@@ -1,17 +1,13 @@
 {
-  "name": "cruk/coding-standards-drupal-7",
-  "description": "A PHP CodeSniffer ruleset for Drupal 7 development",
   "type": "phpcodesniffer-standard",
   "require": {
     "drupal/coder": "^8.3",
     "phpcompatibility/php-compatibility": "^9.3",
-    "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0"
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2"
   },
-  "authors": [
-    {
-      "name": "David Hughes",
-      "email": "david.hughes@cancer.org.uk"
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
     }
-  ],
-  "minimum-stability": "stable"
+  }
 }
